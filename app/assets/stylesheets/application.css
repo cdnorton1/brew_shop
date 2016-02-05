@@ -40,17 +40,19 @@ h1,
  .jumbotron a {
  	text-align: center;
  }
-
+.caption .btn-default,
  .jumbotron .btn-default {
  	margin-top: 30px;
  	text-align: center;
  	border: 1px solid #8D2501;
- 	background-color: #8C8479
+ 	background-color: #8C8479;
+ 	color: #FFF0DC;
  }
 
  .thumbnail {
  	
  	width: 300px;
+
  }
 
  .caption h3 {
@@ -65,11 +67,48 @@ h1,
  	font-size: 12px;
  }
 
+ #new_header {
+ 	color: #8C8479;
+ 	padding-bottom: 20px;
+ 	font-family: 'Poiret One', cursive;
+}
+ }
+
  .btn-primary {
  	border: 1px solid #8D2501;
  	background-color: #8C8479;
- 	color: #0A0A0C;
+ 	color: #FFF0DC;
  	margin-left; 30px;
  }
 
+ .brews {
+ 	width: 100%;
+ }
+ .brews img {
+ 	height: 900px;
+ 	width: 600px;
+ }
+
+ .brews h3 {
+ 	color: #8C8479;
+ 	text-align: center;
+ }
+
+.row {
+	margin-left: 50px;
+}
+
+.field {
+	color: #8C8479;
+ 	margin-left: 30px;
+ 	padding-bottom: 30px;
+ 	font-size: 12px;
+}
+
+.actions {
+	width: 80px;
+	height: 25px;
+	margin-left: 30px;
+	padding-bottom: 40px;
+}
 
